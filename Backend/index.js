@@ -3,7 +3,9 @@ import express from 'express'
 import dotenv from 'dotenv'
 import mongoose from "mongoose"
 import userRoute from "./routes/user.route.js"
+import blogRoute from "./routes/blog.route.js"
 import fileUpload from "express-fileupload"
+import bcrypt from "bcrypt"
 import { v2 as cloudinary } from 'cloudinary';
 
 

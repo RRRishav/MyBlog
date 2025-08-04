@@ -6,7 +6,7 @@ import createToken from  "../jwt/authToken.js"
 
 
 
-export const register = async (req, res) => {
+export const createBlog = async (req, res) => {
 
 
 
@@ -137,4 +137,3 @@ export const logOut = (req,res)=>{
         message:"User Logout successfully"
     })
 }
-
