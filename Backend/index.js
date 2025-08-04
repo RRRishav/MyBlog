@@ -39,6 +39,7 @@ catch (err) {
 
 
 app.use('/api/users',userRoute)
+app.use('/api/blogs',blogRoute)
 
 //CLOUDINARY
 
